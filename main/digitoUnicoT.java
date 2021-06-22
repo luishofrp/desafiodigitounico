@@ -34,6 +34,11 @@ public class digitoUnicoT {
                 System.out.println("digitoUnico("+multnk+") = " + somatotal);
                 System.out.printf("========================================\n");
             } else {
+                int multnk = n * k;
+                int soma = somaNumero(multnk, 0);
+                System.out.printf("========================================\n");
+                System.out.println("digitoUnico("+multnk+") = " +soma);
+                System.out.printf("========================================\n");
             }
         }
     }
